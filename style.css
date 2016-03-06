@@ -5,13 +5,20 @@ body {
 	background: url("assets/images/tinygrid.png");
 	font-family: helvetica;
 }
+#full-name {
+	font-size:55px;
+}
+#find-out-link {
+	font-size:40px;
+}
 .initials {
 	margin: 100px auto;
+	margin-bottom:0px;
 	text-align: center;
 	font-size: 80px;
 }
 .names {
-	margin: 100px auto;
+	margin: 0px auto;
 	text-align: center;
 	font-size: 80px;
 
@@ -19,7 +26,21 @@ body {
     -webkit-transition: all 2s ease-in-out;
     transition: all 2s ease-in-out;
     transition-delay: 2s;
+
 }
+.details {
+	margin-top:0px;
+	opacity: 0.0;
+}
+
 .initials:hover .names {
     opacity: 1.0;
+    margin-top:50px;
+}
+
+.names:hover .details {
+	opacity:1.0;
+	margin-top:50px;
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
 }
