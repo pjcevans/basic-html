@@ -1,3 +1,25 @@
 h1 {
 	color: blue;
 }
+body {
+	background: url("assets/images/tinygrid.png");
+	font-family: helvetica;
+}
+.initials {
+	margin: 100px auto;
+	text-align: center;
+	font-size: 80px;
+}
+.names {
+	margin: 100px auto;
+	text-align: center;
+	font-size: 80px;
+
+    opacity: 0.0;
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+    transition-delay: 2s;
+}
+.initials:hover .names {
+    opacity: 1.0;
+}
