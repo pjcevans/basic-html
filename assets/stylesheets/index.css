@@ -2,7 +2,7 @@ h1 {
 	color: blue;
 }
 body {
-	background: url("assets/images/tinygrid.png");
+	background: url("../images/tinygrid.png");
 	font-family: helvetica;
 }
 #full-name {
@@ -25,7 +25,7 @@ body {
     opacity: 0.0;
     -webkit-transition: all 2s ease-in-out;
     transition: all 2s ease-in-out;
-    transition-delay: 2s;
+    transition-delay: 1s;
 
 }
 .details {

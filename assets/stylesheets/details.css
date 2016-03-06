@@ -1,0 +1,46 @@
+body {
+	background: url("../images/tinygrid.png");
+	font-family: helvetica;
+}
+.container {
+	width:982px;
+	margin:0 auto;
+}
+.content-strip {
+	height:220px;
+	padding:15px;
+	margin-top:20px;
+	background:hsla(106, 100%, 100%, 0.57);
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	border-radius:10px;
+}
+.content-strip img {
+	float:right;
+}
+.content-strip ul {
+	display:inline;
+}
+.content-strip li {
+	float:left;
+	padding-left:3px;
+	list-style-type: none;
+}
+article {
+	max-width:300px;
+	background:hsla(106, 100%, 100%, 0.57);
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+	border-radius:10px;
+	float:left;
+	margin:10px;
+	padding:2px;
+}
+
+article img {
+	float:right;
+}
+
+.contact {
+	float:right;
+}
