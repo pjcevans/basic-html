@@ -1,15 +1,30 @@
 body {
 	background: url("../images/tinygrid.png");
 	font-family: helvetica;
+	margin:0px;
+}
+nav {
+	background:hsla(106, 100%, 100%, 0.57);
+}
+nav ul {
+	background:hsla(106, 100%, 100%, 0.57);
+	padding:0px;
+	margin:0px;
+	margin-left:17%;
+}
+nav ul li {
+	display:inline;
+	margin:17%;
+	font-size:18px;
 }
 .container {
-	width:982px;
+	width:992px;
 	margin:0 auto;
 }
 .content-strip {
-	height:220px;
+	min-height:220px;
 	padding:15px;
-	margin-top:20px;
+	margin:20px 10px 10px 10px;
 	background:hsla(106, 100%, 100%, 0.57);
 	border-right:1px solid gray;
 	border-bottom:1px solid gray;
@@ -27,7 +42,8 @@ body {
 	list-style-type: none;
 }
 article {
-	max-width:300px;
+	max-width:305.5px;
+	min-height:200px;
 	background:hsla(106, 100%, 100%, 0.57);
 	border-right:1px solid gray;
 	border-bottom:1px solid gray;
@@ -43,4 +59,10 @@ article img {
 
 .contact {
 	float:right;
+	height:100%;
+
+}
+.about {
+	overflow:hidden;
+	padding-right:5	px;
 }
