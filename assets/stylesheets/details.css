@@ -43,7 +43,7 @@ nav ul li {
 }
 article {
 	max-width:305.5px;
-	min-height:200px;
+	min-height:210px;
 	background:hsla(106, 100%, 100%, 0.57);
 	border-right:1px solid gray;
 	border-bottom:1px solid gray;
